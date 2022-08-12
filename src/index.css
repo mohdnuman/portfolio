@@ -93,6 +93,10 @@ span{
   cursor: pointer;
 }
 
+.social-iconss:hover{
+  cursor: pointer;
+}
+
 .info{
  color: white;
  font-family: 'Silkscreen', cursive; 
@@ -170,4 +174,9 @@ a{
 .contact-option:hover{
   cursor: pointer;
   border-bottom: 0.5px solid white;
+}
+
+.contact-block a{
+  text-decoration: none;
+  color: white;
 }

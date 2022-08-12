@@ -41,7 +41,7 @@ class AboutMiddle extends Component {
           </div>
           <div>
             <span className="contact-option">✧EMAIL</span>
-            <span className="contact-option">✧LINKEDIN</span>
+            <a href="https://www.linkedin.com/in/mohd-numan/"><span className="contact-option">✧LINKEDIN</span></a>
             <span className="contact-option">✧RESUME</span>
           </div>
         </div>

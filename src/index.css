@@ -180,3 +180,39 @@ a{
   text-decoration: none;
   color: white;
 }
+
+/*-------------------------work page-----------------------*/
+
+.work-wrapper{
+  /* border-left: 1px solid white; */
+  color: white;
+}
+
+.project-logo{
+  height: auto;
+  width: 10vw;
+  display: inline-block;
+}
+
+.project-logo h2{
+  display: inline-block;
+}
+
+.project-logo p{
+  display: inline-block;
+}
+
+.project-block{
+  margin-top: 10vh;
+  border-left: 1px solid white;
+  padding-left: 5vw;
+}
+
+.work-wrapper a{
+  text-decoration: underline;
+  color: white;
+}
+
+h1{
+  font-family: 'Silkscreen', cursive;
+}

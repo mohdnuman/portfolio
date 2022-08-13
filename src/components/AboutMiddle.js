@@ -8,7 +8,7 @@ class AboutMiddle extends Component {
           💭 Blockchain | FullSatck experienced Developer <br />
           💭 Born and raised in Delhi, India
           <br />
-          💭Currently pursuing B.tech in Information Technogy from Guru Gobind
+          💭Currently pursuing B.tech in Information Technology from Guru Gobind
           Singh Indraprashta University <br />
           💭 Have a passion for devoloping decentralized applications which
           solve real world problems for people <br />
@@ -17,7 +17,7 @@ class AboutMiddle extends Component {
         <div className="about-middle-info">
           <h2>Education</h2>
           💭 Senior Secondary  <br />
-                From Father Agnel School - With Physics, Chemistry, And Maths (percnetage-95.6%)<br/> 
+                From Father Agnel School - With Physics, Chemistry, And Maths (percentage-95.6%)<br/> 
           💭 B.Tech in Information Tehnology<br />
                 From Guru Gobind Singh Indraprastha University, Delhi
         </div>
@@ -40,9 +40,9 @@ class AboutMiddle extends Component {
             Interested? Connect With Me!
           </div>
           <div>
-            <span className="contact-option">✧EMAIL</span>
+            <a href="mailto:mohammadnuman123@gmail.com"><span className="contact-option">✧EMAIL</span></a>
             <a href="https://www.linkedin.com/in/mohd-numan/"><span className="contact-option">✧LINKEDIN</span></a>
-            <span className="contact-option">✧RESUME</span>
+            <a href="https://drive.google.com/file/d/1P8N2kLsvLIQeyC7JY6MJT-lfa22clKIn/view?usp=sharing"><span className="contact-option">✧RESUME</span></a>
           </div>
         </div>
       </div>

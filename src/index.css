@@ -30,9 +30,8 @@ span{
 }
 
 
-.name-role-container span{
+.name-role-container{
   display: inline-block;
-  width: 57vw;
   margin-top: 10px;
 }
 
@@ -44,6 +43,9 @@ span{
   transition: 0.4s ease-in-out;
   text-align: center;
   margin: 10px;
+  margin-top: 5vh;
+  position: relative;
+  float: right;
 }
 .tab-option:hover{
   border-top: 5px solid black;

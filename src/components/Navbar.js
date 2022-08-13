@@ -9,7 +9,7 @@ class Navbar extends Component {
         <Container maxWidth="lg" className="navbar">
           <div>
             <span className="name-role-container">
-              <span>MOHD NUMAN </span>
+              <span>MOHD NUMAN </span><br/><br/>
               <span>BLOCKCHAIN | FULLSTACK DEVELOPER</span>
             </span>
             <span>

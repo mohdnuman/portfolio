@@ -298,8 +298,10 @@ h1 {
   .social-icon {
     height: auto;
     width: 4vh;
-    margin-left: 30vw;
+    margin-left: 1.5vw;
     margin-top: 4vh;
+    position: relative;
+    top: 50vh;
   }
   
   .social-iconss {
@@ -307,14 +309,40 @@ h1 {
     width: 4vh;
     margin-left: 1.5vw;
     position: relative;
-    top: -62vh;
-    left: 50vw;
+    top: -3vh;
   }
 
   #side-bar {
     width: 5vw;
-    height: 100vh;
     overflow: hidden;
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 300px) {
+.tab-option {
+  border-top: 5px solid grey;
+  width: 0.5vw;
+  display: inline-block;
+  transition: 0.4s ease-in-out;
+  text-align: center;
+  margin: 10px;
+  margin-right: 50px;
+  margin-top: 8vh;
+  position: relative;
+  float: right;
+}
+.name-role-container {
+  display: inline-block;
+  margin-top: 10px;
+  width: 42vw;
+}
+
+.navbar {
+  background-color: white;
+  border: 2px solid white;
+  height: 25vh;
+  margin-top: 10vh;
+  opacity: 0.7;
+}
 }

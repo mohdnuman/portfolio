@@ -12,7 +12,7 @@ class Middle extends Component {
             I am Numan, a blockchain | fullstack developer based in Delhi,
             India, who's passionate about solving real world problems using the
             blockchain technology. I am all about Creating decentralized
-            blockchain applications using the etheruem or any other evm based
+            blockchain applications using the ethereum or any other evm based
             blockchain stack.
           </div>
         </Container>

@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap");
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-html {background-color: black;}
+html {
+  background-color: black;
+}
 
-.navbar{
+.navbar {
   background-color: white;
   border: 2px solid white;
   height: 15vh;
@@ -25,18 +27,16 @@ html {background-color: black;}
   opacity: 0.7;
 }
 
-span{
-  font-family: 'Silkscreen', cursive;
+span {
+  font-family: "Silkscreen", cursive;
 }
 
-
-.name-role-container{
+.name-role-container {
   display: inline-block;
   margin-top: 10px;
 }
 
-
-.tab-option{
+.tab-option {
   border-top: 5px solid grey;
   width: 10vw;
   display: inline-block;
@@ -47,94 +47,91 @@ span{
   position: relative;
   float: right;
 }
-.tab-option:hover{
+.tab-option:hover {
   border-top: 5px solid black;
   cursor: pointer;
 }
 
-#logo{
-  height:auto;
-  width: 8vw;
+#logo {
+  height: auto;
+  width: 15vh;
 }
 
-#side-bar{
-  /* width: 10vw; */
+#side-bar {
   width: 5vw;
   text-align: center;
 }
 
-#vertical-line{
+.vertical-line {
   margin-top: -14vh;
   border-left: 2px solid white;
-  height:40vh;
+  height: 40vh;
   margin-left: 3vw;
   width: 10vw;
 }
 
-.middle-banner{
+.middle-banner {
   height: 60vh;
 }
 
-.social-icon{
+.social-icon {
   height: auto;
-  width: 3vw;
+  width: 7vh;
   margin-left: 1.5vw;
   margin-top: 4vh;
 }
 
-.social-iconss{
+.social-iconss {
   height: auto;
-  width: 3vw;
+  width: 7vh;
   margin-left: 1.5vw;
   position: relative;
   top: -3vh;
 }
 
-
-.social-icon:hover{
+.social-icon:hover {
   cursor: pointer;
 }
 
-.social-iconss:hover{
+.social-iconss:hover {
   cursor: pointer;
 }
 
-.info{
- color: white;
- font-family: 'Silkscreen', cursive; 
- width: 50vw;
- display: inline-block;
- margin-left: 15vw;
- position: relative;
- top: -32vh;
+.info {
+  color: white;
+  font-family: "Silkscreen", cursive;
+  width: 50vw;
+  display: inline-block;
+  margin-left: 15vw;
+  position: relative;
+  top: -32vh;
 }
 
-.about-page{
+.about-page {
   color: white;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-.about-wrapper{
+.about-wrapper {
   border-left: 1px solid white;
 }
 /*---------------------about-page-top---------------------------------------*/
 
-
-.about-text{
+.about-text {
   font-size: 4rem;
-  width:10vw;
+  width: 10vw;
   height: 40vh;
   margin-top: 10vh;
   margin-left: 15vw;
-  font-family: 'Silkscreen', cursive; 
+  font-family: "Silkscreen", cursive;
 }
 
-.profile-pic{
-  height:auto;
+.profile-pic {
+  height: auto;
   width: 25vw;
   display: inline-block;
   position: relative;
@@ -142,79 +139,182 @@ a{
   margin-top: -15vh;
 }
 
-.meet-me-text{
+.meet-me-text {
   position: relative;
-  left:4vw;
+  left: 4vw;
   top: -15vh;
 }
 
-
-.about-middle-info{
+.about-middle-info {
   width: 50vw;
   margin: 10vh;
   margin-left: 15vw;
-  font-family: 'Silkscreen', cursive; 
+  font-family: "Silkscreen", cursive;
 }
 
-.contact-block{
-  width:50vw;
+.contact-block {
+  width: 50vw;
   margin: 10vh;
   margin-left: 15vw;
 }
-.contact-block-heading{
+.contact-block-heading {
   padding-bottom: 10px;
   border-bottom: 1px solid white;
-  font-family: 'Silkscreen', cursive; 
+  font-family: "Silkscreen", cursive;
   margin-bottom: 10px;
 }
 
-.contact-option{
-  margin-right:5vw;
+.contact-option {
+  margin-right: 5vw;
   transition: 1s ease-in-out;
 }
 
-.contact-option:hover{
+.contact-option:hover {
   cursor: pointer;
   border-bottom: 0.5px solid white;
 }
 
-.contact-block a{
+.contact-block a {
   text-decoration: none;
   color: white;
 }
 
+@media only screen and (max-width: 400px) {
+  .about-text {
+    font-size: 2rem;
+    width: 10vw;
+    height: 40vh;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    font-family: "Silkscreen", cursive;
+  }
+  
+  .profile-pic {
+    height: auto;
+    width: 40vh;
+    display: inline-block;
+    position: relative;
+    left: 7vw;
+    margin-top: -15vh;
+  }
+
+  .meet-me-text {
+   display: none;
+  }
+
+  .contact-option {
+    position: relative;
+    left: -7vw;
+    top: 2vh;
+    margin-right: 5vw;
+    transition: 1s ease-in-out;
+  }
+  
+}
+
+
 /*-------------------------work page-----------------------*/
 
-.work-wrapper{
+.work-wrapper {
   /* border-left: 1px solid white; */
   color: white;
 }
 
-.project-logo{
+.project-logo {
   height: auto;
   width: 10vw;
   display: inline-block;
 }
 
-.project-logo h2{
+.project-logo h2 {
   display: inline-block;
 }
 
-.project-logo p{
+.project-logo p {
   display: inline-block;
 }
 
-.project-block{
+.project-block {
   margin-top: 10vh;
   border-left: 1px solid white;
   padding-left: 5vw;
 }
 
-.work-wrapper a{
+.work-wrapper a {
   text-decoration: underline;
   color: white;
 }
 
-h1{
-  font-family: 'Silkscreen', cursive;
+h1 {
+  font-family: "Silkscreen", cursive;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .tab-option {
+    border-top: 5px solid grey;
+    width: 14vw;
+    display: inline-block;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+    margin: 10px;
+    margin-right: 10px;
+    margin-top: 8vh;
+    position: relative;
+    float: right;
+  }
+  .name-role-container {
+    display: inline-block;
+    margin-top: 10px;
+    width: 50vw;
+  }
+
+  .navbar {
+    background-color: white;
+    border: 2px solid white;
+    height: 20vh;
+    margin-top: 10vh;
+    opacity: 0.7;
+  }
+
+  .vertical-line {
+    margin-top: -14vh;
+    border-left: 2px solid white;
+    height: 80vh;
+    margin-left: 3vw;
+    width: 10vw;
+  }
+
+  .info {
+    color: white;
+    font-family: "Silkscreen", cursive;
+    width: 50vw;
+    display: inline-block;
+    margin-left: 15vw;
+    position: relative;
+    top: -73vh;
+  }
+
+  .social-icon {
+    height: auto;
+    width: 4vh;
+    margin-left: 30vw;
+    margin-top: 4vh;
+  }
+  
+  .social-iconss {
+    height: auto;
+    width: 4vh;
+    margin-left: 1.5vw;
+    position: relative;
+    top: -62vh;
+    left: 50vw;
+  }
+
+  #side-bar {
+    width: 5vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+  }
 }

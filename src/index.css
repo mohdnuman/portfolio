@@ -204,7 +204,7 @@ a {
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .about-text {
     font-size: 2rem;
     width: 10vw;
@@ -274,7 +274,7 @@ h1 {
   font-family: "Silkscreen", cursive;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 
   .tab-option {
     border-top: 5px solid grey;
@@ -324,9 +324,9 @@ h1 {
     height: auto;
     width: 4vh;
     margin-left: 1.5vw;
-    margin-top: 4vh;
+    margin-top: 0vh;
     position: relative;
-    top: 50vh;
+    top: 5vh;
   }
   
   .social-iconss {
@@ -334,7 +334,7 @@ h1 {
     width: 4vh;
     margin-left: 1.5vw;
     position: relative;
-    top: -3vh;
+    top: -30vh;
   }
 
   #side-bar {

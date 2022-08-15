@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AboutEnd from "./AboutEnd";
 
 class AboutMiddle extends Component {
   render() {
@@ -34,6 +35,7 @@ class AboutMiddle extends Component {
           &nbsp;&nbsp;&nbsp;✵At Clickdee<br/>
           &nbsp;&nbsp;&nbsp;✵From March,2022 to present <br/>
         </div>
+        <AboutEnd/>
 
         <div className="contact-block">
           <div className="contact-block-heading">

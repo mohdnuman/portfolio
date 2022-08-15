@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import AboutTop from "./AboutTop";
 import AboutMiddle from "./AboutMiddle";
 
+
 class About extends Component {
   render() {
     return (

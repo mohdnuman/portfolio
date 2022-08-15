@@ -179,6 +179,31 @@ a {
   color: white;
 }
 
+.mint-button{
+  margin-top: 5vh;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-family: "Silkscreen", cursive;
+  width: 20vh;
+}
+
+.mint-button:hover{
+  cursor: pointer;
+  color: grey;
+}
+
+.mint-button:disabled{
+  color: grey;
+  cursor: not-allowed;
+}
+
+.mint-info{
+  font-size: 0.8rem;
+}
+
+
+
 @media only screen and (max-width: 400px) {
   .about-text {
     font-size: 2rem;

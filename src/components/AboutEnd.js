@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import card from "../contracts/card";
 import { web3 } from "../web3";
 import { wallet } from "../web3";
+import {rinkeby} from "../web3";
 
 class AboutEnd extends Component {
   constructor(props) {
@@ -15,7 +16,13 @@ class AboutEnd extends Component {
   handleWalletCheck = () => {
     console.log(wallet);
     if (wallet == true) {
+      if(rinkeby==true){
       this.handleMint();
+      }else{
+        this.setState({
+        txMessage:"Please Select The Rinkeby Testnet"
+        })
+      }
     } else {
       this.setState({
         txMessage: "No Wallet Detected",

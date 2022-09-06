@@ -32,15 +32,22 @@ class Work extends Component {
           />
 
           <ProjectBlock
+            image="blockify.png"
+            heading="4.Blockify"
+            body="A blockhain based product authentication system where users can check if the product they are using is authentic or not."
+            github="https://github.com/mohdnuman/blockify"
+          />
+
+          <ProjectBlock
             image="nft.png"
-            heading="4.NFT MarketPlace"
+            heading="5.NFT MarketPlace"
             body="A platfrom on which user can upload any image and convert it into an NFT. The user can then list the NFT to sell it on the marketPlace"
             github="https://github.com/mohdnuman/nft-marketplace"
           />
 
           <ProjectBlock
             image="socialMedia.png"
-            heading="5.Social Media Website"
+            heading="6.Social Media Website"
             body=""
             github="https://github.com/mohdnuman/codeial"
           />

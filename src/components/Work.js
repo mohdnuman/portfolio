@@ -25,14 +25,14 @@ class Work extends Component {
           />
 
           <ProjectBlock
-            image="amm.PNG"
+            image="amm.png"
             heading="3.Automated Market Maker (Forked Uniswap)"
             body=""
             github="https://github.com/mohdnuman/uniswap-v2-fork"
           />
 
           <ProjectBlock
-            image="blockify.png"
+            image="blockify.PNG"
             heading="4.Blockify"
             body="A blockhain based product authentication system where users can check if the product they are using is authentic or not."
             github="https://github.com/mohdnuman/blockify"
